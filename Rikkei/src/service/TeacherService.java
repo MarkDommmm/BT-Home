@@ -7,15 +7,6 @@ public class TeacherService {
         ClasssService classsService = new ClasssService();
         private Teacher[] teacherList = new Teacher[100];
         private int size;
-//        private Student[] teacherList = new Student[1000];
-        //    private Student[] teacherList = {
-//            new Student(1,"nhungJV1","nhungJV1","nhungJV1","27/04/1996","0967585702",subjectService.getSubjectList()[0],classsService.getClassList()[0],true ),
-//            new Student(2,"nhungJV2","nhungJV2","nhungJV2","27/04/1996","0967585702",subjectService.getSubjectList()[0],classsService.getClassList()[0],true ),
-//            new Student(3,"nhungJV3","nhungJV3","nhungJV3","27/04/1996","0967585702",subjectService.getSubjectList()[0],classsService.getClassList()[0],true ),
-//            new Student(4,"nhungJS4","nhungJS4","nhungJS4","27/04/1996","0967585702",subjectService.getSubjectList()[1],classsService.getClassList()[2],true ),
-//            new Student(5,"nhungJS5","nhungJS5","nhungJS5","27/04/1996","0967585702",subjectService.getSubjectList()[1],classsService.getClassList()[2],true ),
-//            new Student(6,"nhungJS6","nhungJS6","nhungJS6","27/04/1996","0967585702",subjectService.getSubjectList()[1],classsService.getClassList()[2],true ),
-//    };
 
         public Teacher[] getTeacherList() {
             return teacherList;
